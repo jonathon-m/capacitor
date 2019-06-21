@@ -6,7 +6,22 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const prismjs_1 = __importDefault(require("prismjs"));
 const path_1 = __importDefault(require("path"));
 const components_1 = __importDefault(require("prismjs/components/"));
-const languages = ['tsx', 'bash', 'typescript', 'markup', 'css', 'json', 'diff'];
+const languages = [
+    'bash',
+    'diff',
+    'css',
+    'html',
+    'java',
+    'json',
+    'json5',
+    'markup',
+    'objectivec',
+    'shell',
+    'swift',
+    'tsx',
+    'typescript',
+    'xml'
+];
 components_1.default(languages);
 function findItem(siteStructureList, filePath) {
     for (const item of siteStructureList) {
@@ -106,7 +121,7 @@ function collectHeadingMetadata(renderer, metadata) {
         });
         return `
 <h${level} id="${id}">
-  ${(level !== 1) ? `<a class="heading-link" href="#${id}"><app-icon name="link"></app-icon>` : ''}
+  ${(level !== 1) ? `<a class="heading-link" href="#${id}"><ion-icon name="ios-link"></ion-icon>` : ''}
   ${text}
   ${(level !== 1) ? `</a>` : ''}
 </h${level}>
@@ -116,9 +131,6 @@ function collectHeadingMetadata(renderer, metadata) {
 exports.collectHeadingMetadata = collectHeadingMetadata;
 function changeCodeCreation(renderer) {
     function highlight(code, lang) {
-        code = code.replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;");
         if (lang != null && languages.indexOf(lang) !== -1) {
             return prismjs_1.default.highlight(code, prismjs_1.default.languages[lang]);
         }

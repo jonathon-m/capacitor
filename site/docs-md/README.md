@@ -20,7 +20,7 @@
   * [Cordova/Ionic Native Plugins](cordova/using-cordova-plugins.md)
   * [Known Incompatible Plugins](cordova/known-incompatible-plugins.md)
 * Guides
-  * [Ionic Framework App](guides/ionic-framework-app.md)
+  * [Ionic Framework Camera App](guides/ionic-framework-app.md)
   * [Push Notifications - Firebase](guides/push-notifications-firebase.md)
   * [Community Guides](guides/community.md)
 * iOS
@@ -28,18 +28,21 @@
   * [Configuration](ios/configuration.md)
   * [Updating](ios/updating.md)
   * [Custom Native Code](ios/custom-code.md)
+  * [Deploying to App Store](https://www.joshmorony.com/deploying-capacitor-applications-to-ios-development-distribution/)
   * [Troubleshooting](ios/troubleshooting.md)
 * Android
   * [Getting Started](android/index.md)
   * [Configuration](android/configuration.md)
   * [Updating](android/updating.md)
   * [Custom Native Code](android/custom-code.md)
+  * [Deploying to Google Play](https://www.joshmorony.com/deploying-capacitor-applications-to-android-development-distribution/)
   * [Troubleshooting](android/troubleshooting.md)
 * Web/PWA
   * [Getting Started](web/index.md)
   * [PWA Elements](web/pwa-elements.md)
 * Electron
   * [Getting Started](electron/index.md)
+  * [Updating](electron/updating.md)
 * Creating Plugins
   * [Introduction](plugins/index.md)
   * [iOS Guide](plugins/ios.md)

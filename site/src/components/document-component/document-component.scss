@@ -50,16 +50,16 @@ document-component {
       border-bottom: 1px solid transparent;
     }
   
-    app-icon {
+    ion-icon {
       transition: opacity 0.2s;
       position: absolute;
-      left: -20px;
+      left: -24px;
       display: flex;
       align-items: center;
       opacity: 0;
     }
   
-    &:hover app-icon {
+    &:hover ion-icon {
       opacity: 0.8;
     }
   }
@@ -76,10 +76,10 @@ document-component {
   }
 
   ul {
-    -webkit-padding-start: 0px;
+    -webkit-padding-start: 16px;
     li, code {
-      font-size: 16px;
-      margin-left: 18px;
+      font-size: 14px;
+      margin-top: 16px;
     }
   }
 
@@ -92,7 +92,7 @@ document-component {
   ul,
   ol {
     code {
-      padding: 0 4px 3px;
+      padding: 1px 4px 2px;
       background-color: #ecf4fb;
       color: #16161D;
       border-radius: 3px;

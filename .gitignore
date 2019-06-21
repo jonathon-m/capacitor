@@ -33,3 +33,8 @@ android-template/app/app.iml
 *.json
 !capacitor-angular-toolkit/**/*.js
 !capacitor-angular-toolkit/**/*.json
+/site/.env
+/site/.firebase
+.gradle/
+.settings/
+.project

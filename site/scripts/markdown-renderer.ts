@@ -4,7 +4,22 @@ import path from 'path';
 import loadLanguages from 'prismjs/components/';
 import { SiteStructureItem, MarkdownContent } from '../src/global/definitions';
 
-const languages = ['tsx', 'bash', 'typescript', 'markup', 'css', 'json', 'diff'];
+const languages = [
+  'bash', 
+  'diff', 
+  'css', 
+  'html', 
+  'java', 
+  'json', 
+  'json5', 
+  'markup',
+  'objectivec', 
+  'shell',
+  'swift', 
+  'tsx', 
+  'typescript', 
+  'xml'
+];
 loadLanguages(languages);
 
 export function findItem(siteStructureList: SiteStructureItem[], filePath: string): SiteStructureItem {
@@ -106,7 +121,7 @@ export function collectHeadingMetadata(renderer: marked.Renderer, metadata: Mark
 
     return `
 <h${level} id="${id}">
-  ${(level !== 1) ? `<a class="heading-link" href="#${id}"><app-icon name="link"></app-icon>` : ''}
+  ${(level !== 1) ? `<a class="heading-link" href="#${id}"><ion-icon name="ios-link"></ion-icon>` : ''}
   ${text}
   ${(level !== 1) ? `</a>` : ''}
 </h${level}>
@@ -116,9 +131,6 @@ export function collectHeadingMetadata(renderer: marked.Renderer, metadata: Mark
 
 export function changeCodeCreation(renderer: marked.Renderer) {
   function highlight(code: string, lang?: string) {
-    code = code.replace(/&/g, "&amp;")
-               .replace(/</g, "&lt;")
-               .replace(/>/g, "&gt;");
     if (lang != null && languages.indexOf(lang) !== -1) {
       return Prism.highlight(code, Prism.languages[lang]);
     }

@@ -10,14 +10,28 @@ contributors:
 
 ## General
 
-[Capacitor: Five Apps in Five Minutes](https://www.youtube.com/watch?v=x2jRs7Qqai8)
+[How to Build an Ionic Chat App with React and Stream &#8250;](https://levelup.gitconnected.com/how-to-build-an-ionic-chat-app-with-react-and-stream-739b67611280)
 
-[Create an Ionic 4 PWA with Capacitor](https://blog.jscrambler.com/create-an-ionic-4-pwa-with-capacitor/)
+[Capacitor: Five Apps in Five Minutes &#8250;](https://angularfirebase.com/lessons/capacitor-five-apps-in-five-minutes/)
+
+[Create an Ionic 4 PWA with Capacitor &#8250;](https://blog.jscrambler.com/create-an-ionic-4-pwa-with-capacitor/)
+
+[Capacitor Workflow for iOS and Android Apps &#8250;](https://www.youtube.com/watch?v=oXbRcpsytGQ)
+
+## APIs
+
+[Camera: Building an Ionic Framework Camera App](/docs/guides/ionic-framework-app)
+
+[Network: Ionic 4 and Network Detection with Capacitor &#8250;](https://developer.school/posts/ionic-4-network-detection-with-capacitor/)
+
+[Push Notifications: Using Push Notifications with Firebase in an Ionic Angular App](/docs/guides/push-notifications-firebase)
+
+[Splash Screen: Creating a Dynamic/Adaptable Splash Screen for Capacitor (Android) &#8250;](https://www.joshmorony.com/creating-a-dynamic-universal-splash-screen-for-capacitor-android/)
 
 ## Integrations
 
-[Using Google Maps and Geolocation in Ionic with Capacitor](https://www.joshmorony.com/using-google-maps-and-geolocation-in-ionic-with-capacitor)
+[Using Google Maps and Geolocation in Ionic with Capacitor &#8250;](https://www.joshmorony.com/using-google-maps-and-geolocation-in-ionic-with-capacitor)
 
-[Create Native HTML5 Games with Phaser and Capacitor](https://www.joshmorony.com/create-native-html5-games-with-phaser-and-capacitor)
+[Create Native HTML5 Games with Phaser and Capacitor &#8250;](https://www.joshmorony.com/create-native-html5-games-with-phaser-and-capacitor)
 
-[Integrating the Scanbot SDK in a Capacitor App with Ionic](https://scanbot.io/blog/capacitor-app/)
+[Integrating the Scanbot SDK in a Capacitor App with Ionic &#8250;](https://scanbot.io/blog/capacitor-app/)
